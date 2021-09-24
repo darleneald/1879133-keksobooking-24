@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Anna Kravchenko](https://up.htmlacademy.ru/javascript/24/user/1879133).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Мастеров](https://htmlacademy.ru/profile/id912463).
 
 ---
 
