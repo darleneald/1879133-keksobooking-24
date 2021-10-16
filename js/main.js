@@ -78,10 +78,11 @@ const getRandomAdverts = (count) => {
   const adverts = [];
 
   for (let id = 1; id <= count; id++) {
-    let advert = getRandomAdvert(id);
-    adverts.push(advert);
+    adverts.push(getRandomAdvert(id));
   }
   return adverts;
 };
 
 const result = getRandomAdverts(10);
+
+console.log(result);
