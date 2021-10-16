@@ -71,20 +71,17 @@ const getRandomAdvert = (id) => {
     description: '[description]',
     photos: getRandomArrayItem(ADVERT_PHOTOS),
     location,
-  }
+  };
 };
 
 const getRandomAdverts = (count) => {
   const adverts = [];
 
-  for (let id = 1; i <= count; id++) {
+  for (let id = 1; id <= count; id++) {
     const advert = getRandomAdvert(id);
     adverts.push(advert);
   }
-
   return adverts;
 };
 
-const adverts = getRandomAdverts(10);
-
-console.log(adverts);
+adverts = getRandomAdverts(10);
