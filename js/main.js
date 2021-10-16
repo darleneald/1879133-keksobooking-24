@@ -84,4 +84,4 @@ const getRandomAdverts = (count) => {
   return adverts;
 };
 
-adverts = getRandomAdverts(10);
+const adverts = getRandomAdverts(10);
